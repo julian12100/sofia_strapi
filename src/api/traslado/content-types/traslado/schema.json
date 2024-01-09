@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "traslados",
+  "info": {
+    "singularName": "traslado",
+    "pluralName": "traslados",
+    "displayName": "traslado",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "activo": {
+      "type": "string",
+      "required": true
+    },
+    "sticker": {
+      "type": "integer",
+      "required": true
+    },
+    "marca": {
+      "type": "string"
+    },
+    "modelo": {
+      "type": "string"
+    },
+    "serial": {
+      "type": "string"
+    },
+    "origentraslado": {
+      "type": "string"
+    },
+    "destinotraslado": {
+      "type": "string"
+    },
+    "motivo": {
+      "type": "string"
+    },
+    "aprobado_admin": {
+      "type": "string"
+    },
+    "aprobado_tec": {
+      "type": "string"
+    },
+    "aprobado_conta": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "id_analista": {
+      "type": "integer"
+    }
+  }
+}
